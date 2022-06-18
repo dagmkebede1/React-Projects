@@ -1,5 +1,5 @@
-import React from 'react'
-import ProductItem from './ProductItem'
+import React from "react";
+import ProductItem from "./ProductItem";
 
 const ProductList = ({ Product, removeProduct, readToggle }) => {
   return (
@@ -7,9 +7,9 @@ const ProductList = ({ Product, removeProduct, readToggle }) => {
       {Product.length < 1 ? (
         <h4>Sorry! no Product with your search</h4>
       ) : (
-        <div className='card-container'>
+        <div className="card-container">
           {Product.map((item) => {
-            const { id, name, category, price, image } = item
+            const { id, name, category, price, image } = item;
             return (
               <ProductItem
                 key={id}
@@ -21,12 +21,12 @@ const ProductList = ({ Product, removeProduct, readToggle }) => {
                 removeProduct={removeProduct}
                 readToggle={readToggle}
               />
-            )
+            );
           })}
         </div>
       )}
     </div>
-  )
-}
+  );
+};
 
-export default ProductList
+export default ProductList;

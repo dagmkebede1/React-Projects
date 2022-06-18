@@ -6,6 +6,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+html{
+  font-size: 62.5%;
+}
 .container {
   width: 80%;
   margin: 0 auto;
@@ -25,7 +28,7 @@
 }
 .search-container {
   display: flex;
-  gap: 20px;
+  gap: 3rem;
 }
 .btn {
   cursor: pointer;
@@ -43,7 +46,7 @@
 }
 .btn-readmore {
   border: none;
-  color: blueviolet;
+  color: #626D8E;
   padding: 5px 10px;
   cursor: pointer;
   background-color: white;
@@ -57,7 +60,6 @@
   margin-bottom: 10px;
   border: none;
   outline: 1px solid blueviolet;
-  padding: 10px;
   text-align: center;
   border-radius: 50px;
   background-color: white;
@@ -115,7 +117,7 @@
   margin-bottom: 8px;
 }
 .card .card-price .price {
-  color: blueviolet;
+  color: #626D8E;
   font-weight: 600;
 }
 .card img {
@@ -125,20 +127,8 @@
   font-size: 12px;
   background-color: white;
   color: #444;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  line-height: 1.7rem;
+  letter-spacing: 0.05rem;
 }
 
 .footer {
@@ -148,14 +138,15 @@
   align-items: center;
   justify-content: center;
   height: 120px;
+  gap: 2rem;
 }
 .footer p {
   color: grey;
   font-size: small;
   line-height: 1px;
 }
-.footer p span {
-  color: blueviolet;
+.footer span {
+  color: #626D8E;
   font-weight: 600;
 }
 @keyframes upload {
