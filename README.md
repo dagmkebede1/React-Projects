@@ -1,2 +1,2 @@
 # React-Projects
-## this repo contains collactions of different react projects.
+## this repo contains collections of different react projects.
